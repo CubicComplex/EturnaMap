@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>It's testing time!</title>
+    <style>
+
+        .icon {
+            position: absolute;
+        }
+
+        .icon .tex {
+            width: 50px;
+            height: 50px;
+            -webkit-filter: drop-shadow(0px 0px 10px #000);
+            filter: drop-shadow(0px 0px 10px #000);
+
+        }
+
+        .icon:hover .tex {
+            transform: scale(125%, 125%);
+        }
+
+        .icon .info {
+            visibility: hidden;
+            width: 300px;
+            background-color: #222;
+            color: #ddd;
+            text-align: center;
+            border-radius: 10px;
+            padding: 0 50px;
+            position: absolute;
+            z-index: 1;
+            top: 125%;
+            left: 50%;
+            transform: translate(-150px, 0);
+            margin-left: -60px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .icon:hover .info {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        #after {
+            margin-top: 580px;
+        }
+
+    </style>
+</head>
+<body>
+    <p>top text====================================</p>
+    <div id="map" style="position: absolute; left: 50%; transform: translate(-50%, 0);">
+        <img style="width: 960px;" src="https://cubiccomplex.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fd1e7daf3-eaae-4e84-b7ae-b9d0173bde81%2F8a188978-f050-4ced-801f-534e6dcfc897%2FReturna_Assets.png?table=block&id=e35e9853-ba13-411b-b78b-08903e4eb03c&spaceId=d1e7daf3-eaae-4e84-b7ae-b9d0173bde81&width=1820&userId=&cache=v2">
+
+        <div style="left: 630px; top: 130px;" class="icon">
+            <a href="https://cubiccomplex.notion.site/Spireguard-of-the-Spirelands-e3a0ba79bdfa440f894342cba1140cd7">
+                <img class="tex" src="https://cubiccomplex.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fd1e7daf3-eaae-4e84-b7ae-b9d0173bde81%2F4168c058-79ad-4c28-84cc-5445712c3a5d%2FDALL_E_2023-11-19_22.30.37_-_A_logo_representing_the_Spireguard_faction_from_the_Eturna_RPG__inspired_by_the_Spireguard_s_deep_connection_to_the_Spire__a_colossal_structure._The_l-removebg-preview.png?table=block&id=e3a0ba79-bdfa-440f-8943-42cba1140cd7&spaceId=d1e7daf3-eaae-4e84-b7ae-b9d0173bde81&width=250&userId=&cache=v2">
+            </a>
+
+            <div class="info">
+                <h3>Spireguard of the Spirelands</h3>
+                <p>The Spireguard are a formidable and disciplined group with a culture deeply rooted in tradition and order, with society revolving around the protection and reverence of the Spire, a colossal structure surpassing the surrounding mountains in height.</p>
+            </div>
+        </div>
+
+        <div style="left: 540px; top: 260px;" class="icon">
+            <a href="https://cubiccomplex.notion.site/The-Sun-Chasers-of-Quentin-6081243b0f4e4413bf1522e2f8e54e4f">
+                <img class="tex" src="https://cubiccomplex.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fd1e7daf3-eaae-4e84-b7ae-b9d0173bde81%2F64466d54-0b47-49f8-a0e7-c9f033599e77%2FFaction-_Sun_Chasers.png?table=block&id=6081243b-0f4e-4413-bf15-22e2f8e54e4f&spaceId=d1e7daf3-eaae-4e84-b7ae-b9d0173bde81&width=250&userId=&cache=v2">
+            </a>
+
+            <div class="info">
+                <h3>The Sun Chasers of Quentin</h3>
+                <p>The Sun Chasers are a serene and enlightened society renowned for their devotion to balance and aesthetic grace. Their civilization is intricately woven with a philosophy of tranquility and wisdom, with magical and societal emphasis on harmony with the natural world.</p>
+            </div>
+        </div>
+
+        <div style="left: 320px; top: 60px;" class="icon">
+            <a href="https://cubiccomplex.notion.site/Arcane-Order-of-Starborne-ff8da214a1184e70baa0db5516b7d1a4">
+                <img class="tex" src="https://cubiccomplex.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fd1e7daf3-eaae-4e84-b7ae-b9d0173bde81%2Ff7aa89a3-d133-44bc-9ec7-d6ad253fef42%2FFaction-_Starbourne.png?table=block&id=ff8da214-a118-4e70-baa0-db5516b7d1a4&spaceId=d1e7daf3-eaae-4e84-b7ae-b9d0173bde81&width=250&userId=&cache=v2">
+            </a>
+
+            <div class="info">
+                <h3>Arcane Order of Starborne</h3>
+                <p>The Arcane Order is a mystic and enigmatic society, originating from the depths of the cosmos. Their civilization is deeply rooted in pursuit of cosmic harmony and the protection of Eturnos from interstellar threats.</p>
+            </div>
+        </div>
+
+        <div style="left: 730px; top: 170px;" class="icon">
+            <a href="https://cubiccomplex.notion.site/The-Enclave-cd3043049490479296668410060b5c42">
+                <img class="tex" src="https://cubiccomplex.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fd1e7daf3-eaae-4e84-b7ae-b9d0173bde81%2Ff56166fa-9d7b-4737-a9ce-ce634ca52f85%2FDALLE_2023-11-22_19.41.14_-_A_logo_representing_The_Enclave_faction_from_the_Eturna_RPG_inspired_by_Celtic_design_elements._The_logo_is_centered_on_a_flat_color_background_with-modified.png?table=block&id=cd304304-9490-4792-9666-8410060b5c42&spaceId=d1e7daf3-eaae-4e84-b7ae-b9d0173bde81&width=250&userId=&cache=v2">
+            </a>
+
+            <div class="info">
+                <h3>The Enclave</h3>
+                <p>The Enclave is a secluded region characterized by its challenging geography and geothermal activity. The Enclave - also the name of the people who settled there - are secluded and isolationist, and have mastered the dangerous terrain through the construction of Heralds.</p>
+            </div>
+        </div>
+    </div>
+    <p id="after">bottom text====================================</p>
+</body>
+</html>
